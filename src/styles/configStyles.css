@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Lexend+Zetta:wght@100..900&family=Prata&family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+:root {
+    --favcolor: #F4EAE9;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 50px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #272f38;
+}
+
+.fonts-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0;
+
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
+}
+
+.font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    cursor: pointer;
+
+    font-family: "Reddit Mono", monospace;
+    transition: ease-in-out 0.15s;
+}
+
+.default {
+    background-color: #363636;
+    color: whitesmoke;
+}
+
+#favcolor {
+    width: 100px;
+    cursor: pointer;
+    background-color: var(--favcolor);
+}
